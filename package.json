@@ -1,0 +1,19 @@
+{
+  "name": "angular-react",
+  "version": "1.0.0",
+  "description": "AngularJS & React",
+  "scripts": {
+    "start": "gulp && gulp browser-sync",
+    "postinstall": "bower install"
+  },
+  "author": "IvánHdzD",
+  "dependencies": {
+    "browser-sync": "^2.14.0",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "wiredep": "^4.0.0"
+  }
+}
